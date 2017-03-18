@@ -145,6 +145,10 @@ hr{
     margin:0 15px 0 10px;
 }
 
+.see-center{
+	text-align: center;
+}
+
 .button-see{
 	font-weight: bold;
     display: inline-block;
@@ -266,7 +270,7 @@ hr{
 
 .recruit-box{
 	text-align: center;
-	margin: 0 auto;
+	margin: 0 auto 10px;
 }
 
 .kwz {
@@ -277,9 +281,6 @@ hr{
 	line-height: 25px;
 }
 
-div > .col-xs-12{
-	margin-bottom: 10px;
-}
 
 .footer-box{
 	padding: 30px 0 30px 0;
@@ -309,6 +310,10 @@ footer .col-md-3{
 }
 
 .none{
+	display: none;
+}
+
+.none-dl{
 	display: none;
 }
 
@@ -379,6 +384,11 @@ footer .col-md-3{
 	.mentor-border{
 		width: 320px;
     	top: 60px
+	}
+	.mentor-triangle{
+	    border: 27px solid transparent;
+		border-right: 15px white solid;
+	    top: 13px;
 	}
 	.mentor-name{
 		font-size: 1.1rem;
